@@ -1,7 +1,7 @@
 {
-  "name": "egg-passport-jwt",
+  "name": "@fruitwisdom/egg-passport-jwt",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![NPM version][npm-image]][npm-url] [![build status][travis-image]][travis-url] [![Test coverage][codecov-image]][codecov-url] [![David deps][david-image]][david-url] [![Known Vulnerabilities][snyk-image]][snyk-url] [![npm download][download-image]][download-url]",
   "eggPlugin": {
     "name": "passportJwt",
     "dependencies": [
@@ -56,6 +56,10 @@
     "url": "https://github.com/eggjs/egg/issues"
   },
   "homepage": "https://github.com/eggjs/egg-passport-jwt#readme",
-  "author": "",
-  "license": "MIT"
+  "author": "sunhao",
+  "license": "MIT",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  }
 }

@@ -1,11 +1,6 @@
 # egg-passport-jwt
 
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][codecov-image]][codecov-url]
-[![David deps][david-image]][david-url]
-[![Known Vulnerabilities][snyk-image]][snyk-url]
-[![npm download][download-image]][download-url]
+
 
 
 <!--
@@ -24,7 +19,7 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-passport-jwt --save
+$ npm i @fruitwisdom/egg-passport-jwt --save
 ```
 
 ## Usage
@@ -33,7 +28,7 @@ $ npm i egg-passport-jwt --save
 // {app_root}/config/plugin.js
 exports.passportJwt = {
   enable: true,
-  package: 'egg-passport-jwt',
+  package: '@fruitwisdom/egg-passport-jwt',
 };
 ```
 
@@ -41,6 +36,7 @@ exports.passportJwt = {
 ## Example
 
 <!-- example here -->
+[例子](https://github.com/sunhaokk/eggjs-template/tree/jwt)
 ```
 const jsonwebtoken = require('jsonwebtoken')
 
